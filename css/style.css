@@ -71,6 +71,13 @@ h2{
     font-size: 20px;
 }
 
+.text-secondary{
+  margin-top: 40px;
+  font-size: 40px;
+  color: #1D809F!important;
+
+}
+
 .service-icon {
     background-color: #fff;
     color: #1d809f;
@@ -91,9 +98,12 @@ p{
 }
  h4{
   font-family:optima; 
+  color:white;
  }
 
-
+.text-faded{
+  color:t#6897bb;
+}
 .image-flip:hover .backside, .image-flip.hover .backside {
 -webkit-transform: rotateY(0deg);
 -moz-transform: rotateY(0deg);
@@ -199,4 +209,29 @@ text-align: center;
 
 .text-faded{
   padding-bottom: 60px;
+}
+
+.mb-4{
+  padding-top: 150px;
+}
+
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
 }
